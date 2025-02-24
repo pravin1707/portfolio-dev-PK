@@ -16,8 +16,7 @@ const Header = () => {
       <div
         className="max-w-screen-xl w-full mx-auto px-4 flex justify-between items-center md:px-6 md:grid md:grid-cols-[1fr,3fr,1fr]">
         <h1>
-          <a
-            href="/"
+          <a href="/"
             className="logo">
             <img src="/images/logo.svg"
               width={40}
@@ -38,9 +37,8 @@ const Header = () => {
           <NavBar navOpen={navOpen} />
         </div>
 
-        <a 
-        href="#contact" 
-        className="btn btn-secondary max-md:hidden md:justify-self-end">
+        <a href="#contact"
+          className="btn btn-secondary max-md:hidden md:justify-self-end">
           Contact Me
         </a>
       </div>
